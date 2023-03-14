@@ -1,16 +1,17 @@
-var firstName = 'Ania'
 let firstName = 'Tomek'
+let firstName2 = 'Ania'
 
-var age = 18
+age = 18
 let age = 12
 let age2 = 24
  
-var favColor = 'niebieski'
-let favColor = 'czerwony'
+const favColor = 'niebieski'
+let favColor2 = 'czerwony'
 
 
 const favMeal = 'schabowy'
  
-let currentCar = 'Audi'
+let currentCar 
+currentCar = 'Audi'
  
 
