@@ -1,0 +1,24 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrycjaBochnak/exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrycjaBochnak/exercises/issues"
+  },
+  "homepage": "https://github.com/PatrycjaBochnak/exercises#readme",
+  "dependencies": {
+    "run": "^1.4.0",
+    "start": "^5.1.0"
+  }
+}
