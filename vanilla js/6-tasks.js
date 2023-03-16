@@ -14,16 +14,16 @@ if (color === newColor) {
     console.log("Kolory się nie zgadzają")
 };
 
-const x = 100;
-const y = 50;
+// const x = 100;
+// const y = 50;
 
-if (x > y) {
-    console.log("x jest większy")
-} else if (x == y){
-    console.log("x jest równy")
-} else {
-    console.log ("x jest mniejszy")
-}
+// if (x > y) {
+//     console.log("x jest większy")
+// } else if (x == y){
+//     console.log("x jest równy")
+// } else {
+//     console.log ("x jest mniejszy")
+// }
 
 const promo = "20%";
 
@@ -38,3 +38,7 @@ switch (promo) {
     default:
         console.log("Nie istnieje")
 }
+
+const x = 10;
+
+const check = (x % 2 == 0) ? "x jest parzyste" : "x nie jest parzyste";
