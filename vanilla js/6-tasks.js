@@ -39,6 +39,16 @@ switch (promo) {
         console.log("Nie istnieje")
 }
 
-const x = 10;
+// const x = 10;
 
-const check = (x % 2 == 0) ? "x jest parzyste" : "x nie jest parzyste";
+// const check = (x % 2 == 0) ? "x jest parzyste" : "x nie jest parzyste";
+
+const x = 50;
+
+if ( x >= 100) {
+    console.log("x >= 100".toUpperCase())
+} else if ( x < 100 && x > 30) {
+    console.log("x jest średniakiem".toUpperCase())
+} else {
+    console.log("x jest mały".toUpperCase())
+}
