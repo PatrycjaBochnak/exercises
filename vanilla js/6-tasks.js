@@ -24,3 +24,17 @@ if (x > y) {
 } else {
     console.log ("x jest mniejszy")
 }
+
+const promo = "20%";
+
+switch (promo) {
+    case "20%":
+        console.log(`Dziś mamy ${promo} zniki!`);
+        break;
+    case "30%":
+    case "10%":
+        console.log(`Wcześniej było 10% i 30% zniki`);
+        break;
+    default:
+        console.log("Nie istnieje")
+}
