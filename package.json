@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node vanilla/7-for.js",
+    "start": "node vanilla/8-loops-tasks.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
