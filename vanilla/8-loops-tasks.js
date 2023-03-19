@@ -10,3 +10,11 @@ while (x < 10) {
     x = x + 2
     console.log(x)
 }
+
+
+let i = 20
+do { 
+    i = i - 3;
+} while ( i > 0);
+
+console.log(i);
