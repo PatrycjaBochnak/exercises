@@ -18,3 +18,14 @@ do {
 } while ( i > 0);
 
 console.log(i);
+
+let numbers = [5, 8, 10, 23, 48, 60];
+
+for (let number of numbers) {
+    console.log(number / 5);
+    if(number % 2 === 0) {
+        console.log(`%cLiczba ${number} jest parzysta`, 'background.color: gold')
+    } else {
+        console.log(`Liczba ${number} jest nieparzysta`)
+    }
+}
