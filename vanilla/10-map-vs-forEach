@@ -1,0 +1,15 @@
+const numbers = [0, 1, 2, 3];
+
+const newNumbers = numbers.forEach(number => console.log(number * 2));
+
+console.log(newNumbers);
+
+// zmienna newNumbers jest undefined metoda forEach nic nie zwraca, nie ma return. Metoda tylko wykonuje kod na danej tablicy, nastomiast niczego nie zwraca.
+
+const mapNumbers = numbers.map(number => (number * 2));
+
+console.log(mapNumbers);
+
+// przy metodzie mapowania console.log zwrócił tablicę z 4 elementami
+
+// forEach wykonuje tylko kod na elementach, a go nie zwraca. Mapowanie zwraca
