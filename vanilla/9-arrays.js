@@ -14,4 +14,6 @@
 const drinks = ["pepsi", "kawa", "sok"]
 const meals = ["schabowy", "spaghetti", "zupa"]
 
-console.log(...drinks, ...meals)
+const menu2 = [...drinks, ...meals];
+
+console.log(menu2);
