@@ -1,0 +1,54 @@
+const letters = ["c", "d"];
+
+letters.unshift("a", "b");
+letters.push("e", "f");
+
+console.log(letters);
+console.log(letters.includes("c"));
+
+const numbers = [1, 2, 3];
+const food = ["apple", "orange"];
+
+const numFood = numbers.concat(food);
+console.log(numFood);
+
+const numFood2 = [...numbers, ...food];
+console.log(numFood2);
+
+const num = [1, 5, 13, 26, 48];
+
+const newNum = num.map(number => (number * 5));
+
+for(const number of newNumbers){
+    if(number % 2 === 0) {
+        console.log(`Liczba parzysta: ${number}`)
+    }
+    else { 
+        (`Liczba nieparzysta: ${number}`)
+    }
+}
+
+const color = ['black']
+
+color.unshift('white');
+color.push('pink');
+
+for(let i = 0; i < colors.length; i++) {
+    console.log(`Mój ulubiony kolor to:
+    
+    ${colors[i].charAt(0).toUpperCase() + colors[i].slice(1)}`)
+}
+
+const cars = "Audi, Mercedes, BMW, Nissan, Dodge";
+
+const newCars = cars.split(", ");
+
+newCars.length > 3 ? console.log('jest OK') : console.log('Nie jest OK')
+
+if (newCars.includes('Audi')) {
+    newCars.push("Lambo")
+} else {
+    newCars.pop()
+}
+
+console.log(newCars);
