@@ -8,7 +8,7 @@ let score
 
 function add(x, y) {
     score = x + y;
-    score % 2 === 0 ? opt1 : opt2
+    score % 2 === 0 ? opt1(score) : opt2(score)
     }
 
 function opt1() {
@@ -19,4 +19,4 @@ function opt2() {
     console.log(`Liczba ${score} jest nieparzysta`)
 }
 
-add(2, 4);
+add(2, 5);
