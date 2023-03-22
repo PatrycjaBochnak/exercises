@@ -20,3 +20,14 @@ function opt2() {
 }
 
 add(2, 5);
+
+let celsius 
+let temp
+
+faranheit = (c) => {
+    celsius = c
+    temp = celsius * 1.8 + 32;
+    console.log(`${c} stopni celsjusza = ${temp} faranheita`)
+}
+
+faranheit(20)
