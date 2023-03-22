@@ -31,3 +31,21 @@ faranheit = (c) => {
 }
 
 faranheit(20)
+
+const num = 10
+
+const numbers = [];
+
+for ( i = 0; i < num; i++) {
+    numbers.push(i)
+};
+
+function foo(number) {
+    if ( number % 3 === 0 && number !== 0) {
+        console.log(`${number} jest podzielne przez 3`)
+    } else {
+        console.log(`${number} nie jest podzielne przez 3`)
+    }
+}
+
+numbers.forEach(foo);
