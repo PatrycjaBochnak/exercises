@@ -1,5 +1,5 @@
 // unshift - dodaje elementy na początku tablicy
-// shift - usuwa pierwszy element tablicy 
+// shift - usuwa pierwszy element tablicy
 // push - dodaje elementy na końcu tablicy
 // pop - usuwa ostatni element tablicy
 // concat - łączenie dwóch tablic
@@ -15,16 +15,16 @@
 
 // spread operator - dajemy trzy kropki przed nazwą tablicy i wtedy mamy osobne stringi
 
-const drinks = ["pepsi", "kawa", "sok"]
-const meals = ["schabowy", "spaghetti", "zupa"]
+const drinks = ["pepsi", "kawa", "sok"];
+const meals = ["schabowy", "spaghetti", "zupa"];
 
 const menu2 = [...drinks, ...meals];
 
 console.log(menu2);
 
-// metoda filter 
+// metoda filter
 
-const numbers = [0, 23, 48, 175, 2, 34, 11]
+const numbers = [0, 23, 48, 175, 2, 34, 11];
 
 // function number(x) {
 //     return x % 2 === 0
@@ -34,8 +34,8 @@ const numbers = [0, 23, 48, 175, 2, 34, 11]
 
 // forEach - bierze tablicę na którą nakładamy metodę, a wtedy na kadym elemencie jest wykonywany jakiś kod (czyli number * 5)
 
-numbers.forEach(number => console.log(number * 5));
+numbers.forEach((number) => console.log(number * 5));
 
-console.log(numbers.includes(0)); // sprawdzanie czy w tablicy jest 0 
+console.log(numbers.includes(0)); // sprawdzanie czy w tablicy jest 0
 
 console.log(numbers.indexOf(23)); // sprawdza jaki indeks ma dana liczba, jeśli wpiszemy parametr którego nie ma w naszej tablicy konsola zwróci nam -1

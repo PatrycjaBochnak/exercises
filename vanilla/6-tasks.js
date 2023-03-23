@@ -9,10 +9,10 @@ const color = blue;
 const newColor = green;
 
 if (color === newColor) {
-    console.log("Kolory się zgadzają")
+  console.log("Kolory się zgadzają");
 } else {
-    console.log("Kolory się nie zgadzają")
-};
+  console.log("Kolory się nie zgadzają");
+}
 
 // const x = 100;
 // const y = 50;
@@ -28,15 +28,15 @@ if (color === newColor) {
 const promo = "20%";
 
 switch (promo) {
-    case "20%":
-        console.log(`Dziś mamy ${promo} zniki!`);
-        break;
-    case "30%":
-    case "10%":
-        console.log(`Wcześniej było 10% i 30% zniki`);
-        break;
-    default:
-        console.log("Nie istnieje")
+  case "20%":
+    console.log(`Dziś mamy ${promo} zniki!`);
+    break;
+  case "30%":
+  case "10%":
+    console.log(`Wcześniej było 10% i 30% zniki`);
+    break;
+  default:
+    console.log("Nie istnieje");
 }
 
 // const x = 10;
@@ -45,10 +45,10 @@ switch (promo) {
 
 const x = 50;
 
-if ( x >= 100) {
-    console.log("x >= 100".toUpperCase())
-} else if ( x < 100 && x > 30) {
-    console.log("x jest średniakiem".toUpperCase())
+if (x >= 100) {
+  console.log("x >= 100".toUpperCase());
+} else if (x < 100 && x > 30) {
+  console.log("x jest średniakiem".toUpperCase());
 } else {
-    console.log("x jest mały".toUpperCase())
+  console.log("x jest mały".toUpperCase());
 }
