@@ -1,8 +1,20 @@
 class App extends React.Component {
-    state = {  } 
-    render() { 
-        return (
-            <div>Menu</div>
-        );
-    }
+  state = {
+    items: [
+      { id: 1, content: "herbata", active: true },
+      { id: 2, content: "ziemniaki", active: false },
+      { id: 3, content: "kasza", active: false },
+      { id: 4, content: "zupa wodna", active: false },
+      { id: 5, content: "wrzątek", active: false },
+      { id: 6, content: "chleb", active: true },
+    ],
+  };
+  render() {
+    return (
+      <>
+        <Header items={this.state.items} />
+        <ListItems />
+      </>
+    );
+  }
 }
