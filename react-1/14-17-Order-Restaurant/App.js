@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <>
         <Header items={this.state.items} />
-        <ListItems />
+        <ListItems items={this.state.items}/>
       </>
     );
   }
